@@ -9,12 +9,12 @@
  */
 int main(int ac, char **av, char **env)
 {
-        if (!ac)
-                (void)ac;
-        if (!av)
-                (void)av;
-        if (!env)
-                (void)env;
-        shell(ac, av, env);
-        return (0);
+	if (!ac)
+		(void)ac;
+	if (!av)
+		(void)av;
+	if (!env)
+		(void)env;
+	shell(ac, av, env);
+	return (0);
 }
